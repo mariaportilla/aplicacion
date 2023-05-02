@@ -10,17 +10,8 @@
 </head>
 <body>
     <section>
-        <!-- <form action="">
-            <label for="identificador"></label>
-            <input type="text"><br><br>
-            <label for="nombre"></label>
-            <input type="text"><br><br>
-            <label for="detalle"></label>
-            <input type="text"><br><br>
-            <input type="submit" value="Registrar">
-        </form> -->
-
-        <form>
+        
+        <form method="POST" action="registrar.php">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">identificador</label>
     <input type="text" class="form-control" id="identificador" name="identificador " aria-describedby="emailHelp">
@@ -28,7 +19,7 @@
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Nombre</label>
-    <input type="password" class="form-control" id="nombre" name="nombre">
+    <input type="text" class="form-control" id="nombre" name="nombre">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Detalle</label>
